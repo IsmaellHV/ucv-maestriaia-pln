@@ -1,0 +1,217 @@
+{
+  "description": "Archivos copiados sin modificar; los README y la configuraci\u00f3n de entrega se adaptan por separado.",
+  "files": [
+    {
+      "path": "dataset/README.md",
+      "sha256": "cb7a91e31db3147702cb570b055105277db9fa283d89beea0cc6745b6b3b5f3d"
+    },
+    {
+      "path": "dataset/development.xlsx",
+      "sha256": "5a894152170242cb07248d264157b4d3884d86ef42e5ba22e5a6a638787dce57"
+    },
+    {
+      "path": "dataset/test.xlsx",
+      "sha256": "11e38355804f86cfac3aeddcb78208cb175d369831f551f9d8fe49353c582763"
+    },
+    {
+      "path": "dataset/train.xlsx",
+      "sha256": "b091a8fa842ea4c2c9b9c28fe0ed28d6ed8da797ced282c5a4dcd71af2e3c67a"
+    },
+    {
+      "path": "frontend/.env.example",
+      "sha256": "d4c47137420dbda50780eb1fa136fe9b95f4491f34852207594f52007d8044d4"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+    },
+    {
+      "path": "frontend/.oxlintrc.json",
+      "sha256": "b4d344818a1e1bf43997e4744a9153c8eef770c98b58229cd86363dabb85ded4"
+    },
+    {
+      "path": "frontend/index.html",
+      "sha256": "5b585033b52803313ded8d2aa0f0695d969aeb091ee6468945eeb02392bd2cf0"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "sha256": "6cdc98d0f40b95f1c235cf6986acffdcac046fe8cbbffcbbf7fcd0ca3d9d6350"
+    },
+    {
+      "path": "frontend/package.json",
+      "sha256": "2523d13f21d5913906951e1c9e7a782e3910d7d41a1a6b586580a6272b5aaec9"
+    },
+    {
+      "path": "frontend/public/favicon.svg",
+      "sha256": "348c74ba80f5f0402f5ef3ec43cf9062e48c76b49b00dd80539df887de5de0ca"
+    },
+    {
+      "path": "frontend/src/App.css",
+      "sha256": "598eaefe23d85ba453f98392904c5f9987bd08297cd085931dea93eca25ea2ed"
+    },
+    {
+      "path": "frontend/src/App.test.tsx",
+      "sha256": "650f1e52f3df6de85f690ab089ca25ae0ef219c8f95b4a8c8adda584e50ca432"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "sha256": "61f3c2af76360c5fe1c9f9c97c7374ee9b849edff1eef89abd342004b55a586c"
+    },
+    {
+      "path": "frontend/src/application/ports/ServiceInfoRepository.ts",
+      "sha256": "bd6ca3434796f3408ff3ac30c21c4cf82ff13ce614c53fd875dd9e562822092f"
+    },
+    {
+      "path": "frontend/src/application/use-cases/AnalyzeNews.ts",
+      "sha256": "77efde4d966965459ab869440b1bfd265a8ac33520852947795667ef5ff5bdbb"
+    },
+    {
+      "path": "frontend/src/application/use-cases/LoadServiceInfo.ts",
+      "sha256": "b80d57924c421171c99c0e8c91d0edd4d6869bbeb022767e26208a574042c6a8"
+    },
+    {
+      "path": "frontend/src/domain/entities/NewsArticle.test.ts",
+      "sha256": "8dd973d3686925e950027babbda5a5bbb07da7b8b1fc4a517aaad149c777cce4"
+    },
+    {
+      "path": "frontend/src/domain/entities/NewsArticle.ts",
+      "sha256": "b69581e68cbc966ea1074bc642521cf530881bf563fa3bed385ee4bf527fee43"
+    },
+    {
+      "path": "frontend/src/domain/entities/Prediction.ts",
+      "sha256": "c866cb3d57a95663d868875bd110f060058096dbe623a40f9b22412a60772629"
+    },
+    {
+      "path": "frontend/src/domain/entities/ServiceInfo.ts",
+      "sha256": "3ce176533cd6075fd49490a3fb0105c349876ce151f95e2e71ba4883cb8ff9fd"
+    },
+    {
+      "path": "frontend/src/domain/repositories/PredictionRepository.ts",
+      "sha256": "8d26bead6dcd6be1ae724bb5cefd96106c1e65fa0b85beaa8e0f32e83c13d126"
+    },
+    {
+      "path": "frontend/src/index.css",
+      "sha256": "09fbdde7bc4e43f33948480609578e49100a9446cbf143ca36e9e0539bf4f297"
+    },
+    {
+      "path": "frontend/src/infrastructure/api/ApiClient.ts",
+      "sha256": "da01aa98fcfa0987086cb67a0562dbb4dcc149e4f0a2eac2a06459f7d08bf259"
+    },
+    {
+      "path": "frontend/src/infrastructure/repositories/FastApiPredictionRepository.test.ts",
+      "sha256": "0bdae271219a21819d9949029c2e0d8e26d908496aa2639030be9e54492409b9"
+    },
+    {
+      "path": "frontend/src/infrastructure/repositories/FastApiPredictionRepository.ts",
+      "sha256": "76e85fd0f95ed8e0bfa58e70057b60348b9353d4bf738daaa1d886f0b4ea6488"
+    },
+    {
+      "path": "frontend/src/infrastructure/repositories/FastApiServiceInfoRepository.ts",
+      "sha256": "b193981fab68aebcbf1336208502f4ae88415799d2becda67c3aed9dcda7c910"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "sha256": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2"
+    },
+    {
+      "path": "frontend/src/presentation/components/NewsForm.tsx",
+      "sha256": "655e9fa786282e2d2c4ffcde119272023e31458becfcf61749ba80b89930b0ab"
+    },
+    {
+      "path": "frontend/src/presentation/components/PredictionPanel.tsx",
+      "sha256": "0cf763bc67b20bf572177b6997f415e8eecd44085a0df7d1c2119b9c1c6dbb33"
+    },
+    {
+      "path": "frontend/src/presentation/hooks/useAnalysis.ts",
+      "sha256": "d70f6a3f3a25554bd49ccee57f12d3e713987712ed9f43faad3bae06210b4650"
+    },
+    {
+      "path": "frontend/src/test/setup.ts",
+      "sha256": "a0c4562e90d57d5415aae745df39f3055be71c6822faf690bc8045f38d39429c"
+    },
+    {
+      "path": "frontend/tsconfig.app.json",
+      "sha256": "8e5d12ba330e7d86409edec74b95451e0db22ee09b9426c94b5bf817571eddb0"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+    },
+    {
+      "path": "frontend/tsconfig.node.json",
+      "sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "sha256": "9670067037963e809bc7393178574d14673e043e2876e459cb647904a34efa27"
+    },
+    {
+      "path": "backend/src/fakenews_es/api/__init__.py",
+      "sha256": "b10dfdd3c8948782a7b363f756a9e7285610748baa67a8acc3735e42c4c02a05"
+    },
+    {
+      "path": "backend/src/fakenews_es/api/dependencies.py",
+      "sha256": "13411a86f60f9b7d3bcbab92738475b9a0264a31bf4f5fc6ecf5639110d7fb75"
+    },
+    {
+      "path": "backend/src/fakenews_es/api/main.py",
+      "sha256": "9afca0b92b5973bbb2dcdc6a49f971cee88977bed650b1dfd7eee4ef2e190d10"
+    },
+    {
+      "path": "backend/src/fakenews_es/api/schemas.py",
+      "sha256": "0408ab3c41ab056c48796633ed8580cce8cbf6d24e1db0555da5c9aece67c0ed"
+    },
+    {
+      "path": "backend/src/fakenews_es/__init__.py",
+      "sha256": "69550bd62c69ad822d625042f1b759e65eb6c6916d6c30a9eef50b0dc9dd0022"
+    },
+    {
+      "path": "backend/src/fakenews_es/data.py",
+      "sha256": "2ba3408ef8eda1ee9c2f97f76f70defaf14b617101a92b6e9cb64abb5a33b91c"
+    },
+    {
+      "path": "backend/src/fakenews_es/beto.py",
+      "sha256": "09d44f7a56ba19c37d6589c34a69819e81c34baf0c63c8dd2a8da18811dc0d5f"
+    },
+    {
+      "path": "backend/src/fakenews_es/evaluation.py",
+      "sha256": "7a29e44e8202d52e0e151814564d114d97d76515597bc47232f4edde1de04f34"
+    },
+    {
+      "path": "backend/src/fakenews_es/experiment.py",
+      "sha256": "8073253e3fa53705f4522389cc07400adef95a84788a440a5f2d2ec5efbb7489"
+    },
+    {
+      "path": "backend/src/fakenews_es/inference.py",
+      "sha256": "fe44e376af74548c93d7fd4759e99192ff7da4bebe41323cdd27ff9f4f4c3d16"
+    },
+    {
+      "path": "backend/tests/test_inference.py",
+      "sha256": "81ae877219ae130675cb884df53e049730d393b9eab6a26dece96690da81fbf1"
+    },
+    {
+      "path": "backend/results/final_model.json",
+      "sha256": "a856d8550df8194af235057273e88f0378e0bdebe339c5e15ead1d76f1f3b0ba"
+    },
+    {
+      "path": "backend/.python-version",
+      "sha256": "16c863195943df357aff24d69eb6f1f022b5e5a0ca2bcd74df2d8494d54b6e23"
+    },
+    {
+      "path": "backend/results/runs/20260920-beto-maxlen512-d015-s42/checkpoint-best/config.json",
+      "sha256": "af11eda3df78b37f06f0ecbcfb81c72e399fc67b5587a25334b49714be137be5"
+    },
+    {
+      "path": "backend/results/runs/20260920-beto-maxlen512-d015-s42/checkpoint-best/model.safetensors",
+      "sha256": "0ffa97acab96e036cd1eab0f9fb3c88bad61bdf6837bc13c463f8a275398eddd"
+    },
+    {
+      "path": "backend/results/runs/20260920-beto-maxlen512-d015-s42/checkpoint-best/tokenizer.json",
+      "sha256": "8e2a37acde195f59d7e4729af76dbbd4b6be93e69a9794a5d192aadef6f17b3b"
+    },
+    {
+      "path": "backend/results/runs/20260920-beto-maxlen512-d015-s42/checkpoint-best/tokenizer_config.json",
+      "sha256": "3400e0fe6e6d4148ee825295d3565d024f7556beaf3c3e1739f8a3f2a7694f75"
+    }
+  ]
+}

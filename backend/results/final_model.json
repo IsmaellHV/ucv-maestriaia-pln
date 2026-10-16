@@ -1,0 +1,44 @@
+{
+  "decision": "D-016",
+  "model_name": "BETO Fake News ES",
+  "model_version": "20260920-beto-maxlen512-d015-s42-epoch3",
+  "model_family": "BETO",
+  "base_checkpoint": "dccuchile/bert-base-spanish-wwm-cased",
+  "base_revision": "c4d86612f51b4f46759c8390d1798c2febe71b93",
+  "evaluated_final_test_experiment_id": "20260920-beto512-final-test-d016-s42",
+  "selected_training_experiment_id": "20260920-beto-maxlen512-d015-s42",
+  "canonical_checkpoint": "results/runs/20260920-beto-maxlen512-d015-s42/checkpoint-best",
+  "checkpoint_model_sha256": "0ffa97acab96e036cd1eab0f9fb3c88bad61bdf6837bc13c463f8a275398eddd",
+  "config_hash": "7a7c622ba78d91ee94dd50884854e203e28c67e2fee664ddbb34e8160e155cdb",
+  "dataset_fingerprint": "a5bf2f15f80fe6e36ce716b035f985393a08cdf65232e785158ef9f936bdf590",
+  "best_epoch": 3,
+  "max_length": 512,
+  "labels": {
+    "0": "True",
+    "1": "Fake"
+  },
+  "positive_class": "Fake",
+  "input_fields": [
+    "Headline",
+    "Text"
+  ],
+  "excluded_predictors": [
+    "Id",
+    "Source",
+    "Link",
+    "Topic"
+  ],
+  "tokenization": {
+    "interface": "sequence_pair",
+    "truncation": "only_second",
+    "padding": "max_length",
+    "max_length": 512
+  },
+  "development_metrics_artifact": "results/runs/20260920-beto-maxlen512-d015-s42/metrics.json",
+  "development_predictions_artifact": "results/runs/20260920-beto-maxlen512-d015-s42/predictions.csv",
+  "test_metrics_artifact": "results/runs/20260920-beto512-final-test-d016-s42/metrics.json",
+  "decision_rule": "argmax over two-class logits; Fake is label 1",
+  "weights_copied": false,
+  "test_accessed_for_model_selection": false,
+  "accessed_for_final_evaluation": true
+}
